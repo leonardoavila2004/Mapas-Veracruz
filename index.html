@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapas Veracruz - Menú Principal</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f0f2f5; }
         h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
-        .grid { display: grid; gap: 15px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-decoration: none; color: #333; transition: transform 0.2s, box-shadow 0.2s; border-left: 5px solid #007bff; display: block; }
-        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(0,0,0,0.15); background-color: #fff; }
-        .card h2 { margin: 0 0 10px 0; color: #0056b3; font-size: 1.1rem; }
-        .card p { margin: 0; color: #666; font-size: 0.9rem; }
-        .btn-report { border-left-color: #28a745; background-color: #e8f5e9; }
+        .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-decoration: none; color: #333; transition: transform 0.2s, box-shadow 0.2s; border-left: 6px solid #007bff; display: flex; flex-direction: column; justify-content: center; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.15); background-color: #fff; }
+        .card h2 { margin: 0 0 10px 0; color: #0056b3; font-size: 1.15rem; line-height: 1.4; }
+        .card p { margin: 0; color: #555; font-size: 0.95rem; line-height: 1.5; }
+        .btn-report { border-left-color: #28a745; background-color: #e8f5e9; border: 1px solid #c3e6cb; }
     </style>
 </head>
 <body>
@@ -26,22 +26,22 @@
 
         <a href="Mapa%202_Violencia_Escuelas.html" class="card">
             <h2>👊 Mapa 2: Violencia Escolar</h2>
-            <p>Zonas con incidencia de violencia.</p>
+            <p>Escuelas clasificadas por su índice de violencia.</p>
         </a>
 
         <a href="Mapa%203_Discriminacion_Escuelas.html" class="card">
-            <h2>🚫 Mapa 3: Discriminación</h2>
-            <p>Casos reportados de discriminación.</p>
+            <h2>🚫 Mapa 3: Discriminación Escolar</h2>
+            <p>Escuelas clasificadas por su índice de discriminación.</p>
         </a>
 
         <a href="Mapa%204_Calor_Veracruz_Violencia.html" class="card">
-            <h2>🔥 Mapa 4: Calor vs Violencia</h2>
-            <p>Relación entre temperatura y violencia.</p>
+            <h2>🔥 Mapa 4: Mapa de calor de Veracruz en función de la violencia</h2>
+            <p>Zonas en Veracruz con más índice de violencia en las escuelas.</p>
         </a>
 
         <a href="Mapa%205_Calor_Veracruz_Discriminación.html" class="card">
-            <h2>🌡️ Mapa 5: Calor vs Discriminación</h2>
-            <p>Análisis térmico y social.</p>
+            <h2>🌡️ Mapa 5: Mapa de calor de Veracruz en función de la discriminación</h2>
+            <p>Zonas en Veracruz con más índice de discriminación en las escuelas.</p>
         </a>
 
         <a href="Reporte_COESPO%20(2).html" class="card btn-report">
