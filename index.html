@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapas Veracruz - Menú Principal</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f0f2f5; }
+        h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
+        .grid { display: grid; gap: 15px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-decoration: none; color: #333; transition: transform 0.2s, box-shadow 0.2s; border-left: 5px solid #007bff; display: block; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(0,0,0,0.15); background-color: #fff; }
+        .card h2 { margin: 0 0 10px 0; color: #0056b3; font-size: 1.1rem; }
+        .card p { margin: 0; color: #666; font-size: 0.9rem; }
+        .btn-report { border-left-color: #28a745; background-color: #e8f5e9; }
+    </style>
+</head>
+<body>
+    <h1>📍 Portal de Mapas: Escuelas Veracruz</h1>
+    
+    <div class="grid">
+        <a href="Mapa%201_Muestra_Escuelas_Veracruz.html" class="card">
+            <h2>🏫 Mapa 1: Muestra de Escuelas</h2>
+            <p>Vista general de las ubicaciones analizadas.</p>
+        </a>
+
+        <a href="Mapa%202_Violencia_Escuelas.html" class="card">
+            <h2>👊 Mapa 2: Violencia Escolar</h2>
+            <p>Zonas con incidencia de violencia.</p>
+        </a>
+
+        <a href="Mapa%203_Discriminacion_Escuelas.html" class="card">
+            <h2>🚫 Mapa 3: Discriminación</h2>
+            <p>Casos reportados de discriminación.</p>
+        </a>
+
+        <a href="Mapa%204_Calor_Veracruz_Violencia.html" class="card">
+            <h2>🔥 Mapa 4: Calor vs Violencia</h2>
+            <p>Relación entre temperatura y violencia.</p>
+        </a>
+
+        <a href="Mapa%205_Calor_Veracruz_Discriminación.html" class="card">
+            <h2>🌡️ Mapa 5: Calor vs Discriminación</h2>
+            <p>Análisis térmico y social.</p>
+        </a>
+
+        <a href="Reporte_COESPO%20(2).html" class="card btn-report">
+            <h2>📄 Reporte Completo (COESPO)</h2>
+            <p>Documento detallado del análisis.</p>
+        </a>
+    </div>
+</body>
+</html>
